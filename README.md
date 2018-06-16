@@ -11,12 +11,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) API for Python 
 * [Google API](https://developers.google.com/api-client-library/python/start/installation) for Python
+** client_secret.json
 * [oauth2client](https://github.com/google/oauth2client) for Python
-
+* ID spreedsheeat already created
 
 ### Installing
 
-For Linux sytem : 
+Modify auto-speedtest.py :
+```
+line 30 : spreadsheetId = 'your sheet id'
+```
+How to get spreadsheetId ? 
+
+
+
+Installing For Linux sytem : 
 ```
 sudo python -m pip install --upgrade pip oauth2client
 sudo python -m pip install --upgrade pip google-api-python-client
