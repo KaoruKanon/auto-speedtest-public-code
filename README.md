@@ -11,9 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [speedtest-cli](https://github.com/sivel/speedtest-cli) API for Python 
 * [Google API](https://developers.google.com/api-client-library/python/start/installation) for Python
-** client_secret.json
+* *client_secret.json*
 * [oauth2client](https://github.com/google/oauth2client) for Python
-* ID spreedsheeat already created
+* ID of your spreedsheet already created
 
 ### Installing
 
