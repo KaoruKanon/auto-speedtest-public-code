@@ -32,7 +32,7 @@ sudo python -m pip install --upgrade pip google-api-python-client
 sudo python -m pip install --upgrade pip speedtest-cli
 ```
 if you use only ssh :
-You can't open browser, Python show an URL. Copy and paste to your current computer to connected with your google account for get a password asked by Python
+You can't open browser, Python show an URL. Copy and paste to your remote computer to connected with your google account for get a password asked by Python
 
 Place auto-speedtest.py and client_secret.json([see also](https://developers.google.com/api-client-library/python/guide/aaa_client_secrets)) inside the same folder. Run .py with IDE or Python Interpreter.
 Using every *t* time with [crontab](https://en.wikipedia.org/wiki/Cron) on linux system (Raspberry Pi) 
